@@ -10,11 +10,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-cp -f ./.zshrc  ~/
+cp -f ./zshrc  ~/.zshrc
 #sed -i 's/gerhartz/$USER/g' ~/.zshrc
-cp ./.bash_aliases ~/
+cp ./bash_aliases ~/.bash_aliases
 #Add and Turn on syntax highlighting in Nano
-#curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+cp -f ./nanorc ~/.nanorc
 #echo Install a Nerd Font
 # you can modify this if you want a different font.
 mkdir -p ~/.local/share/fonts
