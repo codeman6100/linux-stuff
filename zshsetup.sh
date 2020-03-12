@@ -1,7 +1,7 @@
 #!/bin/bash
-echo Installing ZSH - Only works for Ubuntu/Debian
-sudo apt install zsh -y
-echo ZSH installed.
+echo Installing ZSH + Extras - Only works for Ubuntu/Debian
+sudo apt install zsh gdebi -y
+echo Programs installed.
 #echo Configure Shell
 #chsh --shell /etc/zsh
 echo Configuring Zsh
