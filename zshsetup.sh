@@ -14,7 +14,7 @@ cp -f ./.zshrc  ~/
 #sed -i 's/gerhartz/$USER/g' ~/.zshrc
 cp ./.bash_aliases ~/
 #Add and Turn on syntax highlighting in Nano
-curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+#curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 #echo Install a Nerd Font
 # you can modify this if you want a different font.
 mkdir -p ~/.local/share/fonts
