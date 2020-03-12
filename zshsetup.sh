@@ -1,7 +1,7 @@
 #!/bin/bash
-echo Installing Dependencies
-sudo apt install zsh git -y
-echo Dependencies installed.
+echo Installing ZSH - Only works for Ubuntu/Debian
+sudo apt install zsh -y
+echo ZSH installed.
 #echo Configure Shell
 #chsh --shell /etc/zsh
 echo Configuring Zsh
@@ -11,7 +11,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 cp -f ./.zshrc  ~/
-sed -i 's/gerhartz/$USER/g' ~/.zshrc
+#sed -i 's/gerhartz/$USER/g' ~/.zshrc
 cp ./.bash_aliases ~/
 
 #echo Install a Nerd Font
