@@ -1,6 +1,6 @@
 #https://devtidbits.com/2015/11/26/update-the-nano-text-editor-on-ubuntu/
 sudo apt-get build-dep nano
-sudo apt-get install libmagic-dev
+sudo apt-get install libmagic-dev gcc libncursesw5-dev groff
 cd downloads
 wget https://www.nano-editor.org/dist/v4/nano-4.3.tar.gz
 tar -xf nano-4.3.tar.gz
