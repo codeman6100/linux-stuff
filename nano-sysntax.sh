@@ -2,9 +2,9 @@
 sudo apt-get build-dep nano
 sudo apt-get install libmagic-dev
 cd downloads
-wget http://www.nano-editor.org/dist/v2.9/nano-2.9.3.tar.gz
-tar -xf nano-2.9.3.tar.gz
-cd nano-2.9.3
+wget https://www.nano-editor.org/dist/v4/nano-4.3.tar.gz
+tar -xf nano-4.3.tar.gz
+cd nano-4.3
 ./configure --enable-utf8
 make
 sudo apt-get remove nano
