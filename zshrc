@@ -117,7 +117,9 @@ source /home/$USER/.bash_aliases
 
 
 #Setting GUI Display for WSL
-#export DISPLAY=:0
+#export DISPLAY=:0  #WSL v1
+#export DISPLAY=192.168.1.9:0.0  #WSL v2 - ip is host ip
+#export LIBGL_ALWAYS_INDIRECT=1
 
 #open home directory for WSL
 #cd
