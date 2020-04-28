@@ -11,6 +11,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 cp -f ./zshrc  ~/.zshrc
+cp -f ./p10k.zsh ~/.p10k.zsh
 #sed -i 's/gerhartz/$USER/g' ~/.zshrc
 cp ./bash_aliases ~/.bash_aliases
 #Add and Turn on syntax highlighting in Nano
@@ -23,3 +24,4 @@ cd ~/.local/share/fonts && curl -fLo "Roboto Mono for Powerline Nerd Font Comple
 fc-cache -f
 echo You must change the font of your termianl to the installed Roboto Mono font in order for glyphs to work.  Or comment out the "nerd-font" line in your ~/.zshrc file
 echo Restart your terminal for changes to take effect.
+exec zsh
