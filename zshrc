@@ -87,6 +87,7 @@ plugins=(
 	zsh-autosuggestions 
 	zsh-syntax-highlighting 
 	zsh-history-substring-search
+	sudo
 )
  
 source $ZSH/oh-my-zsh.sh
