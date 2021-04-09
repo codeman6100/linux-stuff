@@ -125,10 +125,10 @@ source /home/$USER/.bash_aliases
 
 
 #Setting GUI Display for WSL
-export DISPLAY=:0
+#export DISPLAY=:0
 
 #open home directory for WSL
-cd
+#cd
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
