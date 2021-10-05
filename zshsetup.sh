@@ -22,6 +22,6 @@ cp -f ./nanorc ~/.nanorc
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts && curl -fLo "Roboto Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Mono.ttf
 fc-cache -f
-echo You must change the font of your termianl to the installed Roboto Mono font in order for glyphs to work.  Or comment out the "nerd-font" line in your ~/.zshrc file
+echo You must change the font of your terminal to the installed Roboto Mono font in order for glyphs to work or comment out the "nerd-font" line in your ~/.zshrc file
 echo Restart your terminal for changes to take effect.
 exec zsh
