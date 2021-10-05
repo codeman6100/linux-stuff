@@ -81,13 +81,14 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+	sudo
+	bgnotify
 	git
 	colored-man-pages 
 	command-not-found 
 	zsh-autosuggestions 
 	zsh-syntax-highlighting 
 	zsh-history-substring-search
-	sudo
 )
  
 source $ZSH/oh-my-zsh.sh
@@ -125,7 +126,7 @@ source /home/$USER/.bash_aliases
 
 
 #Setting GUI Display for WSL
-#export DISPLAY=:0
+#export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 #open home directory for WSL
 #cd
