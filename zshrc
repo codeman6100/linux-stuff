@@ -131,5 +131,8 @@ source /home/$USER/.bash_aliases
 #open home directory for WSL
 #cd
 
+#Remote Shell directory reporting
+#precmd () { echo -n "\x1b]1337;CurrentDir=$(pwd)\x07" }
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
