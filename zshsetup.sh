@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Installing ZSH + Extras - Only works for Ubuntu/Debian
-sudo apt install zsh gdebi unzip lsd silversearcher-ag -y
+sudo apt install zsh gdebi unzip silversearcher-ag -y
 echo Programs installed.
 #echo Configure Shell
 #chsh --shell /etc/zsh
